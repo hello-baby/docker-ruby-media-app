@@ -1,4 +1,4 @@
-FROM hellobaby/ruby-dev-app:2.4.2
+FROM eu.gcr.io/baby-snap-173700/ruby-dev-app:2.4.2
 
 RUN apt-get update -qq && \
     apt-get install -y autoconf automake libass-dev libfreetype6-dev libsdl2-dev \
