@@ -1,4 +1,4 @@
-FROM eu.gcr.io/baby-snap-173700/ruby-app:2.5.0
+FROM eu.gcr.io/baby-snap-173700/ruby-app:2.5.1
 
 RUN apt-get update -qq && \
     apt-get install -y autoconf automake libass-dev libfreetype6-dev libsdl2-dev \
