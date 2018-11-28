@@ -1,4 +1,4 @@
-FROM eu.gcr.io/baby-snap-173700/ruby-app:2.5.1
+FROM eu.gcr.io/baby-snap-173700/ruby-app:2.5.3
 
 RUN apt-get update -qq && \
     apt-get install -y autoconf automake libass-dev libfreetype6-dev libsdl2-dev \
@@ -69,3 +69,5 @@ RUN cd $HOME/ffmpeg_sources && \
     rm -rf /home/apps/ffmpeg_sources
 
 ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/usr/local/lib:/usr/local/lib64:/home/apps/ffmpeg_build/lib
+
+
